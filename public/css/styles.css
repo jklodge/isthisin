@@ -1,0 +1,261 @@
+.homepage {
+  color: black;
+}
+.hero.homepage {
+  background-image: url(/images/camera.jpg);
+  background-size: cover;
+  height: 100%;
+  color: black;
+}
+.navbar {
+  background-color: #2d2d2d;
+  color: white;
+  height: 75px;
+}
+.navbar-item {
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 22px;
+  font-weight: bold;
+}
+.card {
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  background-color: #dfddde;
+  border: #808080 2px solid;
+  border-radius: 2px;
+  box-shadow: inset 0px 0px 40px 40px #808080;
+}
+.card-content{
+  padding: 10px;
+}
+.card-image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+.container {
+  margin: 20px auto;
+}
+.column {
+  font-family: 'Open Sans', sans-serif;
+}
+.colone {
+  text-align: center;
+}
+.coltwo {
+  margin-top: 20px;
+}
+
+a + form {
+  display: inline-block;
+}
+.voteButtons {
+  margin-top: 20px;
+}
+.downvote {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.no-click {
+    cursor: none;
+}
+
+p.user {
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+p {
+  padding: 10px;
+  display: block;
+}
+
+.fa-user {
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+.middle {
+  margin-top: 30px;
+}
+.icon {
+  display: inline-block;
+  padding-right: 30px;
+
+}
+.default {
+  cursor: default;
+}
+.imgNav {
+  margin-right: 10px;
+}
+img {
+  border-radius: 10px;
+}
+.newimgPrview {
+  width: 420px;
+  height: 420px;
+}
+.profileHead {
+  margin: 0 auto;
+}
+.profileHead p {
+  line-height: 50px;
+  display: inline-block;
+  padding: 0 0 0 10px;
+}
+.profileHead img {
+  float: left;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+.profileEdit {
+  width: 110px;
+  margin: 0 auto;
+  display: flex;
+}
+.profileColumn {
+  text-align: center;
+}
+.profileColumn .field {
+  text-align: center;
+}
+.edit {
+  display: flex;
+  align-self: center;
+  margin-left: 10px;
+}
+.login {
+  width: 50%;
+  background-color: white;
+  text-align: center;
+}
+
+.loginbox {
+  margin: 40px;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+.field {
+  text-align: left;
+}
+.box {
+  padding: 10px;
+}
+h3 {
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+html {
+    background-color: #eee;
+
+}
+
+.logo {
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.followButtons {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.followButtons button {
+  margin: 5px;
+}
+
+.title:not(:last-child) {
+    margin-bottom: 0;
+}
+.columnShow {
+  text-align: center;
+}
+#mobile-menu .navbar-item {
+  background-color: rgba(45, 45, 45, 0.9);
+  z-index: 3;
+  text-align: center;
+}
+.burger span {
+  width: 40px;
+  height: 3px;
+  background-color: white;
+}
+
+.navbar-burger span:nth-child(2) {
+  margin-top: -17px;
+  color: white;
+}
+.create {
+  margin-top: 4px;
+}
+
+/* //indexroute */
+.plus {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+@media (min-width: 1024px) {
+  .colone {
+    float: left;
+  }
+  .columnShow {
+    float: left;
+  }
+}
+
+@media (max-width: 1023px) {
+  .showcontainer {
+      width: 75%;
+  }
+  .burger {
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .hero.homepage {
+    height: 100vh;
+  }
+  .column {
+    margin: auto;
+  }
+    .navbar {
+        height: 100px;
+        font-size: 40px;
+    }
+    .navbar-item {
+        font-size: 25px;
+    }
+    .editQ {
+      width: 80%;
+    }
+    .burger {
+      margin-top: 20px;
+      margin-right: 30px;
+    }
+    .navbar-item img {
+        width: 75px;
+        height: 200px;
+    }
+    .login {
+      width: 80%;
+    }
+    .profileEdit {
+      width: 220px;
+    }
+    .showcontainer {
+      width: 90%;
+    }
+}
